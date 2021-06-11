@@ -1,5 +1,4 @@
-## Erick S. P.
+## Bem vindo!
 
-Bem Vindo!
+Meu nome é Erick, e estou no cursando o Bacharelado em Física na USP. Desde 2019 venho fazendo alguns projetos em Python e decidi colocá-los todos em um mesmo canto. Enjoy!
 
-Fiz este site com o intuito de mostrar para o mundo meus projetos em Python. Nas abas acima estão alguns deles. Enjoy!
