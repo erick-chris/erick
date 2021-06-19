@@ -5,8 +5,11 @@ Meu nome é Erick, e estou cursando o Bacharelado em Física na USP. Desde 2019 
 
 # Projeto 1: Partícula em uma caixa
 
-Considere o problema de um elétron em uma caixa de aresta de tamanho L, se movendo ao longo de uma só aresta (1D), sujeito a um potencial V(x) = ax/L. A ideia aqui é encontrar a distribuição de probabilidades para o elétron utilizando conceitos de Mecânica Quântica. 
+Considere o problema de um elétron em uma caixa cúbica de aresta de tamanho L, se movendo ao longo de uma só aresta (1D), sujeito a um potencial V(x) = ax/L. A ideia aqui é encontrar a distribuição de probabilidades para o elétron utilizando conceitos de Mecânica Quântica. 
 
-Através [desse link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-pages/Python) é possível encontrar o código fonte desse projeto (hamiltoniana.py). 
+A imagem abaixo mostra os gráficos das curvas de probabilidade para um elétron se movendo ao longo do eixo x. Há pontos de maior e menor probabilidade de se encontrar a partícula em um determinado ponto da caixa. Os gráficos foram gerados para os três primeiros estados.
 
 ![alt text](https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/particle%20in%20a%20box-3.png)
+<img src="https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/particle%20in%20a%20box-3.png" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
+
+Através [desse link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-pages/Python) é possível encontrar o código fonte desse projeto (hamiltoniana.py).
