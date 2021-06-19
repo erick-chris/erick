@@ -9,4 +9,4 @@ Considere o problema de um elétron em uma caixa de aresta de tamanho L, se move
 
 Através [desse link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-pages/Python) é possível encontrar o código fonte desse projeto (hamiltoniana2.py). 
 
-![whatever](/Users/K/Documents/IC - Gregório/particle in a box-3.png)
+![whatever](/Users/K/Documents/IC - Gregório/particle in a box-3.png "whatever")
