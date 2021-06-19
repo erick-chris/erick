@@ -9,7 +9,6 @@ Considere o problema de um elétron em uma caixa cúbica de aresta de tamanho L,
 
 A imagem abaixo mostra os gráficos das curvas de probabilidade para um elétron se movendo ao longo do eixo x. Há pontos de maior e menor probabilidade de se encontrar a partícula em um determinado ponto da caixa. Os gráficos foram gerados para os três primeiros estados.
 
-![alt text](https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/particle%20in%20a%20box-3.png)
 <img src="https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/particle%20in%20a%20box-3.png" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
 
 Através [desse link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-pages/Python) é possível encontrar o código fonte desse projeto (hamiltoniana.py).
