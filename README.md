@@ -2,6 +2,7 @@
 
 Meu nome é Erick, e estou cursando o Bacharelado em Física na USP. Desde 2019 venho fazendo alguns projetos em Python e decidi colocá-los todos em um mesmo canto. Enjoy!
 
+&nbsp;  
 # Projeto 2: Gráficos/Estatística
 
 Neste projeto, desenvolvi um código que, a partir de dados de um arquivo .txt, desenha uma reta que liga os pontos dos gráficos de maneira que os parâmetros da função y = ax + b são os melhores possíveis. A reta que melhor se aproxima dos pontos experimentais é aquela que minimiza o chamado "chi quadrado", muito conhecido em Estatística. Assim, é possível encontrar os parâmetros "a" e "b" de tal modo que minimizem o chi quadrado. O resultado é mostrado logo abaixo.
