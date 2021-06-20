@@ -12,6 +12,16 @@ Neste projeto, desenvolvi um código que, a partir de dados de um arquivo .txt, 
 Através [desse link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-pages/Python) é possível encontrar o código fonte desse projeto (grafico_data1.py).
 
 &nbsp;  
+# Projeto 3: Captura de Pokémons
+
+Este projeto simulou a captura de pokémons através do lançamento de pokébolas em um planeta cuja aceleração da gravidade vale 2 m/s^2 (2 metros por segundo ao quadrado). A ideia aqui é imprimir uma matriz simulando a trajetória da pokébola e contendo a posição do treinador (a pessoa que arremessa a pokébola) e do pokémon, considerando também o tamanho do pokémon. Dados como tamanho (em números de linhas e colunas), nome (por exemplo, "Nidoran") e posição do pokémon (posição na matriz) são retirados de um arquivo .txt, e o usuário do programa define a velocidade inicial e o ângulo de arremesso da pokébola.
+Na imagem abaixo vemos um exemplo de saída desse programa.
+
+<img src="https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/pokemon.png?raw=True" height="420" width="300">
+
+Através [desse link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-pages/Python) é possível encontrar o código fonte desse projeto (pokemon.py).
+
+&nbsp;  
 # Projeto 4: Modelo SIR
 
 O modelo SIR (suscetíveis, infectados e recuperados) trata da modelagem estatística de uma população sujeita a uma doença como a Covid-19, onde a doença é transmitida através do ar. O modelo matemático é desenvolvido utilizando-se conceitos de probabilidade e estatística. Abaixo vemos uma representação desse modelo (simples) que considera apenas a taxa de infecção e a taxa de recuperação. As condições iniciais do problema são: há 99 pessoas suscetíveis e 1 pessoa infectada.
