@@ -7,9 +7,7 @@ Meu nome é Erick e estou cursando o 3º ano do Bacharelado em Física na USP. D
 
 Neste projeto, desenvolvi um código que, a partir de dados de um arquivo .txt, desenha uma reta que liga os pontos dos gráficos de maneira que os parâmetros da função y = ax + b são os melhores possíveis. A reta que melhor se aproxima dos pontos experimentais é aquela que minimiza o chamado "chi quadrado", muito conhecido em Estatística. Assim, é possível encontrar os parâmetros "a" e "b" de tal modo que minimizem o chi quadrado. O resultado é mostrado logo abaixo.
 
-<center>
-  <img src="https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/images/filtro%20de%20wien.png?raw=True" height="300" width="420">
-</center>
+<img align="middle" src="https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/images/filtro%20de%20wien.png?raw=True" height="300" width="420">
 
 Através [desse link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-pages/Python) é possível encontrar o código fonte desse projeto (grafico_data1.py).
 
