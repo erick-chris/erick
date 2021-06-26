@@ -33,6 +33,7 @@ The SIR model (susceptible, infected and recovered) deal with the statistical mo
 <p align="center">
   <img src="https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/images/SIR%20model.png?raw=True" height="300" width="420">
 </p>
+
 In [this link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-pages/Python) you can find the source code of this project (SIR model.py).
 
 &nbsp;  
