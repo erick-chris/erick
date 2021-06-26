@@ -1,51 +1,49 @@
-## Bem vindo!
+## Welcome!
 
-Meu nome é Erick e estou cursando o 3º ano do Bacharelado em Física na USP. Desde 2019 venho fazendo alguns projetos em Python e decidi colocá-los todos em um mesmo canto. Abaixo estão os principais.
+My name is Erick and I am currently doing my Physics Bacharelor degree on University of Sao Paulo (USP). I did some projects in Python and then decided to put them all on this repository. Down below you'll find the most interesting ones.
 
 &nbsp;  
-# Projeto 2: Gráficos/Estatística
+# Project 2: Data Fitting
 
-Neste projeto, desenvolvi um código que, a partir de dados de um arquivo .txt, desenha uma reta que liga os pontos dos gráficos de maneira que os parâmetros da função y = ax + b são os melhores possíveis. A reta que melhor se aproxima dos pontos experimentais é aquela que minimiza o chamado "chi quadrado", muito conhecido em Estatística. Assim, é possível encontrar os parâmetros "a" e "b" de tal modo que minimizem o chi quadrado. O resultado é mostrado logo abaixo.
+In this project, I developed a code that, from data in a .txt file, drawn a line which connect the points of the graphics such that the parameters of the function f(x) = ax + b are the best. The function which best describes the experimental data will minimize the "chi squared". Chi squared is a statistical quantity that basically takes the difference between each point in the graph and the function (the model), then sum of all these differences. Therefore is it possible to find out the parameters "a" and "b" such that minimize the chi squared. The result is shown below.
 
 <p align="center">
   <img src="https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/images/filtro%20de%20wien.png?raw=True" height="300" width="420">
 </p>
 
-Através [desse link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-pages/Python) é possível encontrar o código fonte desse projeto (grafico_data1.py).
+In [this link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-pages/Python) you can find the source code of this project (grafico_data1.py).
 
 &nbsp;  
-# Projeto 3: Captura de Pokémons
+# Project 3: Pokemon Capture
 
-Este projeto simulou a captura de pokémons através do lançamento de pokébolas em um planeta cuja aceleração da gravidade vale 2 m/s^2 (2 metros por segundo ao quadrado). A ideia aqui é imprimir uma matriz simulando a trajetória da pokébola e contendo a posição do treinador (a pessoa que arremessa a pokébola) e do pokémon, considerando também o tamanho do pokémon. Dados como tamanho (em números de linhas e colunas), nome (por exemplo, "Nidoran") e posição do pokémon (posição na matriz) são retirados de um arquivo .txt, e o usuário do programa define a velocidade inicial e o ângulo de arremesso da pokébola.
-Na imagem abaixo vemos um exemplo de saída desse programa.
+Here I simulated the pokemons capture through the launch of pokeballs in a planet whose gravity aceleration is 2 m/s^2 (2 meters per second squared). The main idea is print a matrix that simules the pokeball trajectory. Moreover, the matrix should include the trainer's position (the guy that launch the pokeball) and the pokemon's position as well, considering the pokemon's size. From a .txt file it was possible to extract data from pokemon's size (in number of lines and columns), name ("Nidoran", for example) and pokemon's center position. The program's user define the initial velocity and the launch angle of the pokeball. In the image below we see an output example. 
 
 <p align="center">
   <img src="https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/images/pokemon.png?raw=True" height="450" width="320">
 </p>
 
-Na imagem: o "T" representa a posição do treinador, o "0" é a trajetória da pokébola e os números de 1 a 3 na matriz representam os diferentes pokémons.
-Através [desse link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-pages/Python) é possível encontrar o código fonte desse projeto (pokemon.py).
+In the image: "T" represents the trainer's position; "o" is the pokeball's trajectory; the numbers from 1 to 3 in the matrix represent the pokemons.
+In [this link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-pages/Python) you can find the source code of this project (pokemon.py).
 
 &nbsp;  
-# Projeto 4: Modelo SIR
+# Project 4: SIR Model
 
-O modelo SIR (suscetíveis, infectados e recuperados) trata da modelagem estatística de uma população sujeita a uma doença como a Covid-19, onde a doença é transmitida através do ar. O modelo matemático é desenvolvido utilizando-se conceitos de probabilidade e estatística. Abaixo vemos uma representação desse modelo (simples) que considera apenas a taxa de infecção e a taxa de recuperação. As condições iniciais do problema são: há 99 pessoas suscetíveis e 1 pessoa infectada.
+The SIR model (susceptible, infected and recovered) deal with the statistical modeling of an epidemic/pandemic, like the Covid-19 pandemic. The mathematical model was developed using concepts of probability and statistic. Down below we see a simple representation of this model, which consider only the infection rate and the recover rate. To reach this result I had to establish some initial conditions that are: there are 99 susceptible people and 1 infected person.
 
 <p align="center">
   <img src="https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/images/SIR%20model.png?raw=True" height="300" width="420">
 </p>
-
-Através [desse link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-pages/Python) é possível encontrar o código fonte desse projeto (SIR model.py).
+In [this link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-pages/Python) you can find the source code of this project (SIR model.py).
 
 &nbsp;  
-# Projeto 5: Partícula em uma caixa
+# Project 5: Particle in a box
 
-Considere o problema de um elétron em uma caixa cúbica de aresta de tamanho L, se movendo ao longo de uma só aresta (1D), sujeito a um potencial V(x) = ax/L. A ideia aqui é encontrar a distribuição de probabilidades para o elétron utilizando conceitos de Mecânica Quântica. 
+Consider the problem of an electron in a cubic box with edge of size L, moving over only one edge (1-dimensional moviment) of the box. The electron feel a potencial V(x) = ax/L (that is, the electron experience a force inside the box). So I wanted to find out the probabilities distribution to the electron with concepts from Quantum Mechanics.
 
-A imagem abaixo mostra os gráficos das curvas de probabilidade para um elétron se movendo ao longo do eixo x. Há pontos de maior e menor probabilidade de se encontrar a partícula em um determinado ponto da caixa. Os gráficos foram gerados para os três primeiros estados.
+The figure below shows the graphs from the probabilities curves for an electron moving along the x axis. There are points where the probability of find the electron is high and other points where is almost impossible to find the electron in the box. The states represent the quantized energies of the system; so the ground state is the state where the energy of the system (electron inside the box) is minimum.
 
 <p align="center">
   <img src="https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/images/particle%20in%20a%20box-3.png?raw=True" height="300" width="420">
 </p>
 
-Através [desse link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-pages/Python) é possível encontrar o código fonte desse projeto (hamiltoniana.py).
+In [this link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-pages/Python) you can find the source code of this project (hamiltoniana.py).
