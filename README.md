@@ -3,9 +3,20 @@
 My name is Erick and I am currently doing my Physics Bacharelor degree on University of Sao Paulo (USP). I did some projects in Python and then decided to put them all on this repository. Down below you'll find the most interesting ones.
 
 &nbsp;  
+# Project 1: Energy Usage in the World
+
+This is a almost complete project towards data handling. Here I stored, cleaned, sliced and merged datasets, among other actions. The project itself is about the energy usage over all the countries in the world. I mixed up three datasets about energy usage, GDP (Gross Domestic Product) and scientific presence on energy related topics (Scimago Journal & Country Rank) and then selected the top 15 countries in the Scimago rank (the most active in energy related topics). From this merged dataset I created a scatter plot which synthetizes the overall information contained, as you can see right below. It's a bubble chart showing % Renewable (it is how much in percentage is the country's energy production from renewable sources) vs. Rank (Scimago's rank). The size of the bubble corresponds to the countries' 2014 GDP.
+
+<p align="center">
+  <img src="https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/images/energy_plot.png?raw=True" height="300" width="420">
+</p>
+
+In [this link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-pages/Python) you can find the source code of this project (energy_data.py).
+
+&nbsp;  
 # Project 2: Data Fitting
 
-In this project, I developed a code that, from data in a .txt file, drawn a line which connect the points of the graphics such that the parameters of the function f(x) = ax + b are the best. The function which best describes the experimental data will minimize the "chi squared". Chi squared is a statistical quantity that basically takes the difference between each point in the graph and the function (the model), then sum of all these differences. Therefore is it possible to find out the parameters "a" and "b" such that minimize the chi squared. The result is shown below.
+In this project I developed a code that, from data in a .txt file, drawn a line which connect the points of the graphics such that the parameters of the function f(x) = ax + b are the best. The function which best describes the experimental data will minimize the "chi squared". Chi squared is a statistical quantity that basically takes the difference between each point in the graph and the function (the model), then sum of all these differences. Therefore is it possible to find out the parameters "a" and "b" such that minimize the chi squared. The result is shown below.
 
 <p align="center">
   <img src="https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/images/filtro%20de%20wien.png?raw=True" height="300" width="420">
