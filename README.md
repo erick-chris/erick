@@ -16,7 +16,7 @@ In [this link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-page
 &nbsp;  
 # Project 2: Data Fitting
 
-In this project I developed a code that, from data in a .txt file, drawn a line which connect the points of the graphics such that the parameters of the function f(x) = ax + b are the best. The function which best describes the experimental data will minimize the "chi squared". Chi squared is a statistical quantity that basically takes the difference between each point in the graph and the function (the model), then sum of all these differences. Therefore is it possible to find out the parameters "a" and "b" such that minimize the chi squared. The result is shown below.
+In this project I developed a code that, from data in a .txt file, drawn a line which connect the points of the graphics such that the parameters of the function f(x) = ax + b are the best. The function that best describes the experimental data will minimize the "chi squared". Chi squared is a statistical quantity that basically takes the difference between each point in the graph and the function (the model), then sum of all these differences. Therefore is it possible to find out the parameters "a" and "b" which minimize the chi squared. The result is shown below.
 
 <p align="center">
   <img src="https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/images/filtro%20de%20wien.png?raw=True" height="300" width="420">
@@ -27,7 +27,7 @@ In [this link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-page
 &nbsp;  
 # Project 3: Pokemon Capture
 
-Here I simulated the pokemons capture through the launch of pokeballs in a planet whose gravity aceleration is 2 m/s^2 (2 meters per second squared). The main idea is print a matrix that simules the pokeball trajectory. Moreover, the matrix should include the trainer's position (the guy that launch the pokeball) and the pokemon's position as well, considering the pokemon's size. From a .txt file it was possible to extract data from pokemon's size (in number of lines and columns), name ("Nidoran", for example) and pokemon's center position. The program's user define the initial velocity and the launch angle of the pokeball. In the image below we see an output example. 
+Here I simulated the pokemons capture through the launch of pokeballs in a planet whose gravity aceleration is about 2 m/s^2 (2 meters per second squared). The main idea is to print out a matrix that simules the pokeball trajectory. Moreover, the matrix should include the trainer's position (the guy that launch the pokeball) and the pokemon's position as well, considering the pokemon's size. From a .txt file it was possible to extract data from pokemon's size (in number of lines and columns), name ("Nidoran", for example) and pokemon's center position. The user establishes the initial velocity and the launch angle of the pokeball. In the image below we see an output example. 
 
 <p align="center">
   <img src="https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/images/pokemon.png?raw=True" height="450" width="320">
