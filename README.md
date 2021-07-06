@@ -16,7 +16,7 @@ In [this link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-page
 &nbsp;  
 # Project 2: Data Fitting
 
-In this project I developed a code that, from data in a .txt file, drawn a line which connect the points of the graphics such that the parameters of the function f(x) = ax + b are the best. The function that best describes the experimental data will minimize the "chi squared". Chi squared is a statistical quantity that basically takes the difference between each point in the graph and the function (the model), then sum of all these differences. Therefore is it possible to find out the parameters "a" and "b" which minimize the chi squared. The result is shown below.
+In this project I developed a code that, from data in a .txt file, drawn a line which connect the points of the graphic such that the parameters of the function f(x) = ax + b are the best. The function that best describes the experimental data will minimize the "chi squared". Chi squared is a statistical quantity that basically takes the difference between each point in the graphic (experimental data) and the function (the model), then sum of all these differences. Therefore is it possible to find out the parameters "a" and "b" which minimize the chi squared. The result is shown below.
 
 <p align="center">
   <img src="https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/images/filtro%20de%20wien.png?raw=True" height="300" width="420">
@@ -52,7 +52,7 @@ In [this link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-page
 
 Consider the problem of an electron in a cubic box with edge of size L, moving over only one edge (1-dimensional moviment) of the box. The electron feel a potencial V(x) = ax/L (that is, the electron experience a force inside the box). So I wanted to find out the probabilities distribution to the electron with concepts from Quantum Mechanics.
 
-The figure below shows the graphs from the probabilities curves for an electron moving along the x axis. There are points where the probability of find the electron is high and other points where is almost impossible to find the electron in the box. The states represent the quantized energies of the system; so the ground state is the state where the energy of the system (electron inside the box) is minimum.
+The figure below shows the line graphics from the probabilities curves for an electron moving along the x axis. There are points where the probability of find the electron is high and other points where there's no electron in the box. The states represent the quantized energies of the system; so the ground state is the state where the energy of the system - by system I mean one electron inside the box - is minimum.
 
 <p align="center">
   <img src="https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/images/particle%20in%20a%20box-3.png?raw=True" height="300" width="420">
