@@ -8,7 +8,7 @@ My name is Erick and I am currently doing my Physics Bacharelor degree on Univer
 The idea behind this project was to calculate the win/loss ratio's correlation with the population of the city it is in for the NBA using 2018 data. So here I'd to use some librarys frequently used in data analysis as pandas, numpy, scipy, regex and matplotlib. There were two datasets that I had to store, clean, slice and so on; then I was capable to extract the two lists that I needed to calculate the correlation requested. Right below is the graphic for win/loss ratio versus population of the respective city; in red you see the statistical correlation, which is almost null.
 
 <p align="center">
-  <img src="https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/images/nba_data.png?raw=True" height="450" width="320">
+  <img src="https://github.com/erick-chris/erick-chris.github.io/blob/gh-pages/images/nba_data.png?raw=True" height="320" width="450">
 </p>
 
 In [this link](https://github.com/erick-chris/erick-chris.github.io/tree/gh-pages/Python) you can find the source code of this project (nba.py).
